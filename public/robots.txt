@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.halexxwebdev.com
+
+# Sitemaps
+Sitemap: https://www.halexxwebdev.com/sitemap.xml
