@@ -2,7 +2,7 @@ import { GithubIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
 
 export const halexxProfile = [
   {
-    image: "/hero/halexx.webp",
+    image: "/hero/halexx.jpg",
     name: "Alexandru Geroc",
     title: "Web Developer",
     availability: "Open For Work",
