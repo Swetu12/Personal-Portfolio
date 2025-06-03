@@ -12,34 +12,40 @@ interface TechStackItem {
 
 const techStack: TechStackItem[] = [
   {
-    name: "Figma",
+    name: "NextJS",
     description: "Designing intuitive with seamless collaboration",
-    logo: "placeholder.com/150x100?text=Figma",
+    logo: "/stack/nextjs.svg",
+    progress: 100,
+  },
+  {
+    name: "React",
+    description: "Designing intuitive with seamless collaboration",
+    logo: "/stack/react.svg",
+    progress: 95,
+  },
+  {
+    name: "Tailwind CSS",
+    description: "Designing intuitive with seamless collaboration",
+    logo: "/stack/tailwind.svg",
     progress: 90,
   },
   {
-    name: "Figma",
+    name: "TypeScript",
     description: "Designing intuitive with seamless collaboration",
-    logo: "placeholder.com/150x100?text=Figma",
+    logo: "/stack/typescript.svg",
     progress: 85,
   },
   {
-    name: "Figma",
+    name: "JavaScript",
     description: "Designing intuitive with seamless collaboration",
-    logo: "placeholder.com/150x100?text=Figma",
-    progress: 70,
+    logo: "/stack/javascript.svg",
+    progress: 80,
   },
   {
-    name: "Figma",
+    name: "Strapi CMS",
     description: "Designing intuitive with seamless collaboration",
-    logo: "placeholder.com/150x100?text=Figma",
-    progress: 65,
-  },
-  {
-    name: "Figma",
-    description: "Designing intuitive with seamless collaboration",
-    logo: "placeholder.com/150x100?text=Figma",
-    progress: 50,
+    logo: "/stack/strapi.svg",
+    progress: 75,
   },
 ];
 

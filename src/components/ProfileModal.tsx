@@ -25,7 +25,7 @@ const ProfileModal = ({
       <Dialog open={open} onOpenChange={setOpen}>
         {halexxProfile.map((profile, index) => (
           <DialogContent
-            className="sm:max-w-3xl rounded-2xl shadow-xl border border-gray-200 p-6 bg-white"
+            className="sm:max-w-3xl rounded-2xl shadow-xl border border-gray-200 p-6 bg-white overflow-y-scroll max-h-[90vh]"
             key={index}
           >
             {/* Header */}
@@ -48,7 +48,7 @@ const ProfileModal = ({
             </DialogHeader>
 
             {/* Body */}
-            <div className="py-6 space-y-10 text-gray-800">
+            <div className="py-6 space-y-10 text-gray-800 bg-gray-200 rounded-2xl p-6">
               {/* Bio */}
               <div className="space-y-2">
                 <h2 className="text-lg font-semibold">{profile.bio.title}</h2>

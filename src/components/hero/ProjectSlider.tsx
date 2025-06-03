@@ -12,35 +12,35 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/fvsagency3.png?height=240&width=320",
   },
   {
     id: 2,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/fvsagency2.png?height=240&width=320",
   },
   {
     id: 3,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/fvsagency1.png?height=240&width=320",
   },
   {
     id: 4,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/ecommerce1.png?height=240&width=320",
   },
   {
     id: 5,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/cybersecurity.png?height=240&width=320",
   },
   {
     id: 6,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/dimasc1.png?height=240&width=320",
   },
   {
     id: 7,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/dimasc3.png?height=240&width=320",
   },
   {
     id: 8,
-    image: "/placeholder.svg?height=240&width=320",
+    image: "/mockups/dimasc4.png?height=240&width=320",
   },
 ];
 

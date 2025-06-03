@@ -14,10 +14,10 @@ const TechStackComponent = () => {
     >
       <SectionBadge section="Toolkit" />
       <div className="mx-5 flex w-full items-center justify-center text-center flex-col space-y-5 mt-10">
-        <h1 className="font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:mx-[30vw] lg:break-words leading-tight">
+        <h1 className="mx-5 font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:mx-[30vw] lg:break-words leading-tight">
           {techStackData.title}
         </h1>
-        <p className="text-gray-500 text-sm sm:text-base md:text-lg lg:text-xl lg:mx-[35vw] lg:break-words leading-snug">
+        <p className="mx-5 text-gray-500 text-sm sm:text-base md:text-lg lg:text-xl lg:mx-[35vw] lg:break-words leading-snug">
           {techStackData.description}
         </p>
       </div>

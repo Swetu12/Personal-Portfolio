@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import {
   House,
   PencilRuler,
@@ -37,13 +38,33 @@ const dockItems = [
 
 export default function DockNavigation() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const pathname = usePathname();
+  const router = useRouter();
 
   const handleScroll = (id: string) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+    if (pathname !== "/") {
+      // Store the target section ID in sessionStorage
+      sessionStorage.setItem("scrollToId", id);
+      router.push("/");
+    } else {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
+
+  // When landing on homepage, scroll to the stored ID if it exists
+  useEffect(() => {
+    const id = sessionStorage.getItem("scrollToId");
+    if (id) {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+        sessionStorage.removeItem("scrollToId");
+      }
+    }
+  }, []);
 
   return (
     <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50">
@@ -84,13 +105,11 @@ export default function DockNavigation() {
                   {/* Icon Button */}
                   <button
                     onClick={() => handleScroll(item.targetId)}
-                    className={`relative p-3 rounded-xl hover:cursor-pointer transition-all duration-300 ease-out ${scale}  active:scale-95`}
+                    className={`relative p-3 rounded-xl hover:cursor-pointer transition-all duration-300 ease-out ${scale} active:scale-95`}
                   >
                     <Icon
                       className={`w-6 h-6 ${item.color} transition-colors duration-200`}
                     />
-
-                    {/* Active indicator dot */}
                     <div
                       className={`absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-gray-400 rounded-full transition-all duration-200 ${
                         isHovered
@@ -103,6 +122,7 @@ export default function DockNavigation() {
               );
             })}
           </div>
+
           <Button
             type="submit"
             onClick={() => handleScroll("pricing")}

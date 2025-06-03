@@ -29,8 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-color pb-10`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased pb-14 bg-color`}
       >
+        {/* Content with ClickSpark */}
         <ClickSpark
           sparkColor="#fff"
           sparkSize={10}
@@ -38,9 +39,11 @@ export default function RootLayout({
           sparkCount={8}
           duration={400}
         >
-          {children}
-          <Contact />
-          <DockNavigation />
+          <div className="relative z-10">
+            {children}
+            <Contact />
+            <DockNavigation />
+          </div>
         </ClickSpark>
       </body>
     </html>

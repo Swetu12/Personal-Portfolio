@@ -12,14 +12,16 @@ const Projects = () => {
     >
       <SectionBadge section="Projects" />
       <div className="mx-5 flex w-full items-center justify-center text-center flex-col space-y-5 mt-10">
-        <h1 className="font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:mx-[30vw] lg:break-words leading-tight">
+        <h1 className="font-medium mx-5 text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:mx-[30vw] lg:break-words leading-tight">
           {projectsData.title}
         </h1>
-        <p className="text-gray-500 text-sm sm:text-base md:text-lg lg:text-xl lg:mx-[35vw] lg:break-words leading-snug">
+        <p className="text-gray-500 mx-5 text-sm sm:text-base md:text-lg lg:text-xl lg:mx-[35vw] lg:break-words leading-snug">
           {projectsData.description}
         </p>
       </div>
-      <ProjectCard />
+      <div className={`mx-5`}>
+        <ProjectCard />
+      </div>
     </div>
   );
 };

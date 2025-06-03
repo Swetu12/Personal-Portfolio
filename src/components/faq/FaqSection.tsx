@@ -7,14 +7,21 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
-import { Code, Palette, Smartphone, Zap } from "lucide-react";
+import {
+  Code,
+  Palette,
+  Smartphone,
+  Zap,
+  Wrench,
+  RefreshCw,
+} from "lucide-react";
 
 const faqData = [
   {
     id: "item-1",
     question: "What technologies do you specialize in?",
     answer:
-      "I specialize in modern web technologies including React, Next.js, TypeScript, Node.js, and Tailwind CSS. I also have experience with databases like PostgreSQL and MongoDB, and deployment platforms like Vercel and AWS.",
+      "I specialize in modern web technologies including Next.js, React, Tailwind CSS, TypeScript, JavaScript, and Strapi. These tools allow me to build fast, responsive, and scalable web applications from scratch.",
     icon: <Code className="w-4 h-4" />,
     category: "Technical",
   },
@@ -22,7 +29,7 @@ const faqData = [
     id: "item-2",
     question: "How long does a typical project take?",
     answer:
-      "Project timelines vary based on complexity and scope. A simple landing page typically takes 1-2 weeks, while a full-stack web application can take 4-8 weeks. I provide detailed timelines during our initial consultation.",
+      "It depends on the complexity and features. A basic landing page usually takes 1–2 weeks, while a dynamic website or CMS-powered platform can take 3–6 weeks. I’ll always provide a clear timeline after we define your goals.",
     icon: <Zap className="w-4 h-4" />,
     category: "Process",
   },
@@ -30,7 +37,7 @@ const faqData = [
     id: "item-3",
     question: "Do you provide responsive design?",
     answer:
-      "All websites I develop are fully responsive and optimized for desktop, tablet, and mobile devices. I follow mobile-first design principles to ensure optimal performance across all screen sizes.",
+      "Yes, every website I build is fully responsive—optimized for desktops, tablets, and smartphones. I use mobile-first principles to ensure consistent design and functionality across all screen sizes.",
     icon: <Smartphone className="w-4 h-4" />,
     category: "Design",
   },
@@ -38,7 +45,7 @@ const faqData = [
     id: "item-4",
     question: "What's included in your web development service?",
     answer:
-      "My services include UI/UX design, frontend and backend development, database setup, API integration, performance optimization, SEO implementation, testing, and deployment. I also provide post-launch support and maintenance.",
+      "I handle both design and development, including frontend and backend setup (with Strapi CMS if needed), SEO, performance optimization, and deployment. You'll also get help with hosting, content structuring, and bug fixes.",
     icon: <Palette className="w-4 h-4" />,
     category: "Services",
   },
@@ -46,16 +53,16 @@ const faqData = [
     id: "item-5",
     question: "Do you offer ongoing maintenance and support?",
     answer:
-      "Yes, I offer comprehensive maintenance packages including security updates, performance monitoring, content updates, bug fixes, and feature enhancements. Support packages are customized based on your specific needs.",
-    icon: <Zap className="w-4 h-4" />,
+      "Yes, I offer flexible support packages that include regular updates, bug fixes, backups, and feature improvements. Whether it’s once a month or on-demand, I’m here to help post-launch.",
+    icon: <RefreshCw className="w-4 h-4" />,
     category: "Support",
   },
   {
     id: "item-6",
     question: "Can you work with existing codebases?",
     answer:
-      "Definitely! I have experience working with legacy code, refactoring existing applications, adding new features to established projects, and migrating applications to modern frameworks. I always conduct a thorough code review first.",
-    icon: <Code className="w-4 h-4" />,
+      "Absolutely. I’m comfortable jumping into existing projects—whether it’s for feature updates, bug fixing, or a complete refactor. I always start with a detailed code review to understand your setup.",
+    icon: <Wrench className="w-4 h-4" />,
     category: "Technical",
   },
 ];

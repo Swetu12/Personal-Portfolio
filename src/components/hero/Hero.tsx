@@ -5,6 +5,7 @@ import { Star } from "lucide-react";
 import { heroData } from "@/constants/HeroData";
 import { Button } from "@/components/ui/button";
 import ProjectSlider from "@/components/hero/ProjectSlider";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 
 const Hero = () => {
   const handleScroll = (id: string) => {

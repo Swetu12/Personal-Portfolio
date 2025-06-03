@@ -5,47 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b826f72e-b5c6-4e3e-9379-b43b8948ad87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hero/halexx.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mockups/cubersecurity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mockups/ecommerce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mockups/ecommerce2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mockups/esternitas-business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mockups/esternitas-ecommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mockups/speakershop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/contact/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DockNavigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyProcess.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfileModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ScrollReveal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SectionBadge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Socials.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Testimonials.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/faq/Faq.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/faq/FaqSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/ProjectSlider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing/Pricing.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pricing/PricingCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/ProjectCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/Services.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/ServicesFolders.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/techstack/TechStack.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/techstack/TechStackComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/FaqData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/HalexxProfile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/HeroData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/MyProcess.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/PricingData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/ProjectsData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/ServicesData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/TechStackData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/Testimonials.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/clients_logos/dimasc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/clients_logos/fvsagency.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/cybersecurity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimasc9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/dimascmockup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/ecommerce1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/fvsagency1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/fvsagency2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/fvsagency3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/fvsmockup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mockups/speakershop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stack/javascript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stack/nextjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stack/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stack/strapi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stack/tailwind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stack/typescript.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mockups/cubersecurity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mockups/ecommerce.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mockups/ecommerce2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mockups/esternitas-business.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mockups/esternitas-ecommerce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mockups/speakershop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DockNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DockNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyProcess.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProcess.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfileModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/faq/Faq.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/faq/Faq.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/faq/FaqSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/faq/FaqSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/ProjectSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/ProjectSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pricing/Pricing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pricing/Pricing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/techstack/TechStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techstack/TechStack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/techstack/TechStackComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techstack/TechStackComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/aurora-background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/aurora-background.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/HalexxProfile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/HalexxProfile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/HeroData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/HeroData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/MyProcess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/MyProcess.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/PricingData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/PricingData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/ProjectsData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ProjectsData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/ServicesData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ServicesData.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +72,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Swetu12"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Swetu12/halexx-portoflio-updated.git&quot;,
+    &quot;accountId&quot;: &quot;c785d274-dd64-4b66-b4d7-9d9d8004382b&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts" root0="SKIP_INSPECTION" />
   </component>
@@ -66,28 +95,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/halexx/WebstormProjects/halexx-portfolio-updates/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/halexx/WebstormProjects/halexx-portfolio-updates/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/halexx/WebstormProjects/halexx-portfolio-updates/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/home/halexx/WebstormProjects/halexx-portfolio-updates/public/clients_logos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/halexx/WebstormProjects/halexx-portfolio-updates/node_modules/prettier",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "/home/halexx/WebstormProjects/halexx-portfolio-updates/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/clients_logos" />
+      <recent name="$PROJECT_DIR$/public/stack" />
+      <recent name="$PROJECT_DIR$/public/mockups" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/hero" />
     </key>
@@ -142,7 +174,8 @@
       <workItem from="1748801166770" duration="3979000" />
       <workItem from="1748857226561" duration="4804000" />
       <workItem from="1748881977186" duration="7763000" />
-      <workItem from="1748894276589" duration="5187000" />
+      <workItem from="1748894276589" duration="5569000" />
+      <workItem from="1748967902945" duration="9600000" />
     </task>
     <servers />
   </component>

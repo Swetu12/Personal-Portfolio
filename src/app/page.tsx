@@ -10,7 +10,22 @@ import TechStackComponent from "@/components/techstack/TechStackComponent";
 import Faq from "@/components/faq/Faq";
 import ReactLenis from "lenis/react";
 import ScrollReveal from "@/components/ScrollReveal";
-import { AuroraBackground } from "@/components/ui/aurora-background";
+
+export const metadata = {
+  title: "Web & Software Developer | Frontend & Backend Solutions",
+  description:
+    "Hi, I'm Alex – a passionate Web Developer specializing in modern, fast, and scalable websites. I focus on frontend development and Strapi backend integration, delivering seamless digital experiences that help businesses grow online.",
+  alternates: {
+    canonical: "https://www.halexxwebdev.com/",
+  },
+  openGraph: {
+    url: "https://www.halexxwebdev.com",
+    title: "Web & Software Developer | Frontend & Backend Solutions",
+    description:
+      "Providing web development, frontend, backend with Strapi, and website maintenance services.",
+    siteName: "Halexx Web Dev",
+  },
+};
 
 const Page = () => {
   return (

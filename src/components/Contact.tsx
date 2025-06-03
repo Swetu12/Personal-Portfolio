@@ -117,7 +117,6 @@ const Contact = () => {
           <div className="text-center mt-6 space-y-2">
             <p className="text-gray-500 text-sm">Let's Connect</p>
             <div>
-              <p className="font-medium">+407464115838</p>
               <Link
                 href="mailto:alexandrugeroc2007@gmail.com"
                 className="font-medium"

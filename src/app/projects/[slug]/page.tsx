@@ -8,6 +8,22 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 import ReactLenis from "lenis/react";
 
+export const metadata = {
+  title: "Web & Software Developer | Frontend & Backend Solutions",
+  description:
+    "Hi, I'm Alex – a passionate Web Developer specializing in modern, fast, and scalable websites. I focus on frontend development and Strapi backend integration, delivering seamless digital experiences that help businesses grow online.",
+  alternates: {
+    canonical: "https://www.halexxwebdev.com",
+  },
+  openGraph: {
+    url: "https://www.halexxwebdev.com",
+    title: "Web & Software Developer | Frontend & Backend Solutions",
+    description:
+      "Providing web development, frontend, backend with Strapi, and website maintenance services.",
+    siteName: "Halexx Web Dev",
+  },
+};
+
 type Props = {
   params: { slug: string };
 };
@@ -53,9 +69,11 @@ const Projects = ({ params }: Props) => {
                       {project.description}
                     </p>
                   </div>
-                  <Button className="rounded-full mt-3 md:mt-0 p-7 hover:cursor-pointer font-medium bg-button">
-                    {project.buttonText}
-                  </Button>
+                  <Link href={project.link} target={`_blank`}>
+                    <Button className="rounded-full mt-3 md:mt-0 p-7 hover:cursor-pointer font-medium bg-button">
+                      {project.buttonText}
+                    </Button>
+                  </Link>
                 </div>
               </div>
 
@@ -123,15 +141,17 @@ const Projects = ({ params }: Props) => {
             >
               {project.images.map((image, index) => (
                 <div
-                  className="relative max-w-[380px] md:max-w-[700px] lg:max-w-[1000px] hover:cursor-pointer mx-auto h-auto rounded-4xl overflow-hidden shadow-lg"
+                  className="relative max-w-[380px] md:max-w-[700px] lg:max-w-[1000px] hover:cursor-pointer mx-auto h-auto aspect-video rounded-4xl overflow-hidden shadow-lg"
                   key={index}
                 >
                   <Image
                     src={image}
-                    alt={project.title + " image " + (index + 1)}
-                    width={300}
-                    height={200}
-                    className="w-full h-auto object-cover"
+                    alt={`${project.title} image ${index + 1}`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
+                    className="object-cover"
+                    quality={90}
+                    priority={index === 0}
                   />
                 </div>
               ))}

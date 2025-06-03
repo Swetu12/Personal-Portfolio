@@ -1,7 +1,7 @@
 export const heroData = {
-  title: "I craft websites that hustle as hard as you do",
+  title: "Hey I am Alex.\n" + "\n" + "I am a Web & Software Developer.",
   description:
-    "I design innovative solutions that captivate audiences,  and every interaction inspires action",
+    "I’m a Web Developer specialised in front-end development and CMS integration.",
   button: "View Plans & Pricing",
   projects: [
     {
