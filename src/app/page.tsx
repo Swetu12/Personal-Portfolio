@@ -10,6 +10,7 @@ import TechStackComponent from "@/components/techstack/TechStackComponent";
 import Faq from "@/components/faq/Faq";
 import ReactLenis from "lenis/react";
 import ScrollReveal from "@/components/ScrollReveal";
+import EducationSection from "@/components/EducationSection";
 
 export const metadata = {
   title: "Web & Software Developer | Frontend & Backend Solutions",
@@ -50,6 +51,9 @@ const Page = () => {
         </ScrollReveal>
         <ScrollReveal>
           <TechStackComponent />
+        </ScrollReveal>
+        <ScrollReveal>
+          <EducationSection />
         </ScrollReveal>
         <ScrollReveal>
           <Faq />

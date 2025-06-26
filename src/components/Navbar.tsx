@@ -47,9 +47,15 @@ const Navbar = () => {
                     transition={{ duration: 0.15 }}
                     className="text-sm text-gray-500 inset-0"
                   >
-                    {isProfileDivHovered
-                      ? "Click to see my bio"
-                      : profile.title}
+                      {isProfileDivHovered ? (
+                          "Click to see my bio"
+                      ) : (
+                          <>
+                              <span>{profile.title}</span>
+                              <br />
+                              <span className="text-xs text-gray-400 md:hidden">click on photo to see my bio</span>
+                          </>
+                      )}
                   </motion.p>
                 </AnimatePresence>
               </div>

@@ -8,7 +8,7 @@ import {
   PenTool,
   MessageSquareText,
   Inbox,
-  ShieldQuestion,
+  ShieldQuestion, GraduationCap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -33,6 +33,7 @@ const dockItems = [
     targetId: "testimonials",
   },
   { icon: Inbox, label: "Toolkit", color: "text-black", targetId: "toolkit" },
+  { icon: GraduationCap, label: "Education", color: "text-black", targetId: "Education" },
   { icon: ShieldQuestion, label: "FAQ", color: "text-black", targetId: "faq" },
 ];
 
