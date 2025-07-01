@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+<h1 align="center" style="font-weight: bold;">🚀 Personal Portfolio</h1>
+
+<p align="center">
+<a href="#tech">Technologies</a>
+<a href="#started">Getting Started</a>
+<a href="#colab">Collaborators</a>
+<a href="#contribute">Contribute</a> 
+</p>
+
+
+<p align="center">My personal portfolio website which features some of my projects as well as technical skills, work experience and education.</p>
+
+
+<p align="center">
+<a href="https://www.halexxwebdev.com/">📱 Visit this Project</a>
+</p>
+
+<h2 id="layout">🎨 Layout</h2>
+
+<p align="center">
+
+<img src="https://picsum.photos/1080/1920" alt="Random Image" width="400px">
+<img src="https://picsum.photos/1080/1920" alt="Random Image" width="400px">
+</p>
+
+<h2 id="technologies">💻 Technologies</h2>
+
+- NextJS
+- React
+- TypeScript
+- Tailwind 4.0
+
+<h2 id="started">🚀 Getting started</h2>
+
+Clone down this repository, and all you have to do is run "npm install" and "npm run dev"
+
+<h3>Prerequisites</h3>
+
+As prerequisites you need:
+
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+
+<h3>Cloning</h3>
+
+Run this command in the folder where you want to clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Swetu12/Personal-Portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Starting</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To start the project run:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+<h2 id="colab">🤝 Collaborators</h2>
 
-To learn more about Next.js, take a look at the following resources:
+<p>Give a ⭐ if you like this website!</p>
+<table>
+<tr>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<td align="center">
+<a href="https://github.com/Fernanda-Kipper">
+<img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Alexandru Geroc Profile Picture"/><br>
+<sub>
+<b>Alexandru Geroc</b>
+</sub>
+</a>
+</td>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</tr>
+</table>
