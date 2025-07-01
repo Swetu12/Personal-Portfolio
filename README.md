@@ -20,7 +20,7 @@
 
 <p align="center">
 
-<img src="https://github.com/user-attachments/assets/cd4a90e9-47d7-4aec-bd1f-e34bbd46e654" alt="Website Preview" width="400px">
+<img src="https://github.com/user-attachments/assets/cd4a90e9-47d7-4aec-bd1f-e34bbd46e654" alt="Website Preview" width="800px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
