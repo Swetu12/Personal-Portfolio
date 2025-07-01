@@ -20,7 +20,7 @@
 
 <p align="center">
 
-<img src="[https://picsum.photos/1080/1920](https://github.com/user-attachments/assets/cd4a90e9-47d7-4aec-bd1f-e34bbd46e654)" alt="Random Image" width="400px">
+<img src="https://github.com/user-attachments/assets/cd4a90e9-47d7-4aec-bd1f-e34bbd46e654" alt="Website Preview" width="400px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
@@ -66,7 +66,7 @@ npm run dev
 
 <td align="center">
 <a href="https://github.com/Swetu12">
-<img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Alexandru Geroc Profile Picture"/><br>
+<img src="https://avatars.githubusercontent.com/u/102142947?v=4" width="100px;" alt="Alexandru Geroc Profile Picture"/><br>
 <sub>
 <b>Alexandru Geroc</b>
 </sub>
