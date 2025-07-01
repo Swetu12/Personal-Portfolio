@@ -9,7 +9,7 @@
 </p>
 
 
-<p align="center">My personal web development portfolio serves as a dynamic showcase of my capabilities, projects, and professional journey. It's meticulously crafted to demonstrate my proficiency in <strong>[mention 2-3 key technologies, e.g., React, Node.js, and modern CSS frameworks]</strong>, my problem-solving approach, commitment to excellent design and user experience, and dedication to clean code practices and continuous learning. My goal is to provide recruiters and potential collaborators with a comprehensive and interactive insight into my expertise as a <strong>[Your Primary Role, e.g., Full-Stack Developer, Frontend Engineer, Software Engineer]</strong> and my readiness to contribute to impactful projects.</p>
+<p align="center">My personal portfolio website which features some of my projects as well as technical skills, work experience and education.</p>
 
 
 
