@@ -134,6 +134,30 @@ const Projects = ({ params }: Props) => {
             </div>
           </ScrollReveal>
 
+          {/*VIDEO SECTION*/}
+          <ScrollReveal>
+            <div className={`bg-white rounded-4xl shadow-2xl p-1 space-y-2 md:p-3 mt-5`}>
+              {project.videos?.map((video, index) => (
+                  <div
+                      className="relative max-w-[380px] md:max-w-[700px] lg:max-w-[1000px] mx-auto h-auto aspect-video rounded-4xl overflow-hidden shadow-lg"
+                      key={index}
+                  >
+                    <video
+                        className="w-full h-full object-cover rounded-4xl"
+                        controls
+                        preload="metadata"
+                        poster={project.images?.[index]}
+                        muted
+                    >
+                      <source src={video} type="video/mp4" />
+                      <source src={video.replace('.mp4', '.webm')} type="video/webm" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+              ))}
+            </div>
+          </ScrollReveal>
+
           {/* Project Images */}
           <ScrollReveal>
             <div

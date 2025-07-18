@@ -10,7 +10,7 @@ export const projectsData = {
       slug: "fvs-agency",
       description: "A Modern Web Development & Marketing Agency",
       logo: "/clients_logos/fvsagency.svg",
-      link: "https://fvsagency.vercel.app/",
+      link: "https://fvsagency.netlify.app/",
       buttonText: "Live Preview",
       image: "/mockups/fvsmockup.svg",
       icons: [
@@ -66,8 +66,8 @@ export const projectsData = {
       ],
       overviewText: "Overview",
       overview:
-        "This AI Digital Marketing SaaS Platform is a groundbreaking solution built to transform how businesses manage and scale their online presence. Designed in collaboration with a dedicated partner, this powerful tool combines cutting-edge AI technologies with practical marketing workflows to empower users with actionable insights and automation.\n\n" +
-        "Built using Next.js and TypeScript, the frontend delivers a seamless, responsive, and intuitive experience. From AI-powered tools to deep data integration, the platform is packed with features to boost productivity and marketing results.\n\n" +
+        "This AI Digital Marketing SaaS Platform is a powerful solution built to transform how businesses manage and scale their online presence. Designed in collaboration with a dedicated partner, this powerful tool combines latest AI technologies with practical marketing workflows to empower users with actionable insights and automation.\n\n" +
+        "Built using Next.js and TypeScript, the frontend delivers a seamless, responsive, and intuitive experience. From AI-powered tools to deep data integration, the platform is full of features to boost productivity and marketing results.\n\n" +
         "✨ Key Features:\n\n" +
         "✅ AI Email Generation for engaging campaigns.\n" +
         "✅ AI Idea Generation for endless marketing inspiration.\n" +
@@ -97,6 +97,81 @@ export const projectsData = {
         "/mockups/dimasc8.png",
         "/mockups/dimasc9.png",
       ],
+      videos: [
+        "/previews/dimasc/dimasc-preview-video-3.mp4",
+        "/previews/dimasc/dimasc-preview-video-1.mp4",
+        "/previews/dimasc/dimasc-preview-video-2.mp4",
+      ]
     },
+    {
+      title: "Dimasc AI",
+      slug: "dimasc-ai",
+      description: "A Modern AI Chatbot for Dimasc",
+      logo: "/clients_logos/dimasc.svg",
+      link: "https://dimasc-ai.vercel.app/",
+      buttonText: "Live Preview",
+      image: "/mockups/dimasc-ai/dimasc-ai-mockup.svg",
+      icons: [
+        {
+          name: "Client",
+          icon: User,
+          title: "Dimasc",
+        },
+        {
+          name: "Service",
+          icon: PencilRuler,
+          title: "Chatbot Frontend Development",
+        },
+        {
+          name: "Date",
+          icon: Calendar,
+          title: "2025",
+        },
+      ],
+      overviewText: "Overview",
+      overview:
+          "This AI chatbot was built with three main goals in mind:\n\n" +
+          "✅ Showcase my skills in building scalable frontend applications.\n\n" +
+          "✅ Boost productivity by creating a tool that saves time.\n\n" +
+          "✅ Extend our business (Dimasc) with a smart chatbot feature under a subdomain.\n\n" +
+          "✨ Although this is the MVC version, the application has much bigger potential. We're planning to integrate a custom V0 API, Supabase, and GitHub templates to create components, boilerplates, and configurations that allow us to start new projects with a solid base—skipping boring boilerplate code and jumping straight into the core functionality.\n\n" +
+          "🏗️ Development Insights:\n" +
+          "👨‍💻 Frontend (by Alexandru Geroc):\n" +
+          "✅ Built using Next.js, TypeScript, and Tailwind CSS 4.0.\n" +
+          "✅ Focused heavily on code quality, performance, and scalability.\n" +
+          "✅ I adopted an architecture that's suitable for large-scale SaaS apps, even if this chatbot is just one small part of Dimasc.\n\n" +
+          "💡 Technical Decisions:\n" +
+          "✅ React Query for data fetching — reduces boilerplate, improves speed, and keeps the code clean.\n" +
+          "✅ Zustand for state management — lightweight, scalable, and easy to set up.\n" +
+          "✅ React Hook Form for form validation — highly structured and easy to read.\n\n" +
+          "✅ Next.js Route Groups (like (foldername)) used to isolate layouts and keep layout.tsx files clean and purpose-specific.\n\n" +
+          "📁 Folder Structure:\n" +
+          "- The project uses the src directory to keep everything organized:\n" +
+          "- src/ \n├── app/ \n├── components/ \n├── context/ \n├── data/ \n├── hooks/ \n├── lib/ \n├── stores/ \n├── types/\n" +
+          "- Each part of the codebase has a clear responsibility—for example, separate files for mutations, queries, contexts, and stores. This structure helps developers understand and navigate the project quickly.\n" +
+          "✨ Features:\n" +
+          "✅ Authentication: \n -Sign-In (MFA (Multi-Factor Authentication)) \n -Sign-Up (3-Step Process) \n -Forgot Password (Multi-Step Recovery)\n\n" +
+          "✅ Chat Interface: \n -Dynamic Chat Rendering \n -Search Functionality \n -Edit Chat Title \n -Delete Chat \n -Create New Chat \n -Auto-generated Chat Titles\n\n" +
+          "✅ User Settings: \n -Change Email (with MFA) \n -Change Password \n -Theme Selector \n\n" +
+          "✅ Other: \n -Log Out \n -Secured Routes via Middleware\n\n" +
+          "💻 Technologies:\n\n" +
+          "✅ Next.js\n\n" +
+          "✅ React\n\n" +
+          "✅ TypeScript\n\n" +
+          "✅ Tailwind CSS 4.0\n\n" +
+          "✅ Vercel\n\n" +
+          "✅ React Query\n\n" +
+          "🤝 Collaborators:\n\n" +
+          "👨‍💻 Frontend (by Alexandru Geroc) \n 👨‍💻 Backend (by Sebastian Flavius)",
+      images: [
+        "/previews/dimasc-ai/dimasc-ai-preview-1.png",
+        "/previews/dimasc-ai/dimasc-ai-preview-2.png",
+        "/previews/dimasc-ai/dimasc-ai-preview-3.png",
+        "/previews/dimasc-ai/dimasc-ai-preview-4.png",
+      ],
+      videos: [
+        "/previews/dimasc-ai/dimasc-ai-preview-video-1.mp4",
+      ]
+    }
   ],
 };

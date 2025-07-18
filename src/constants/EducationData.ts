@@ -31,6 +31,14 @@ export const certificates = [
         description:
             "Harvard University's renowned introduction to computer science, this course offers a broad and rigorous foundation in programming, algorithms, data structures, memory, and computer systems. Through languages like C, Python, SQL, and JavaScript, students learn to think computationally and solve complex problems efficiently. Ideal for both beginners and aspiring software engineers. I think this was my favourite course. I loved it, I learned a huge amount of concepts from this course.",
     },
+    {
+        id: 5,
+        image: "/certificates/google-prompting-engineering.png?height=400&width=600",
+        alt: "Google Prompting Essentials",
+        title: "Google Prompting Essentials",
+        description:
+            "This course, developed by Google and offered through Coursera, provides a concise yet powerful introduction to prompt engineering and effective interaction with generative AI models. It explores foundational concepts such as zero-shot, few-shot, and chain-of-thought prompting, along with strategies for improving AI responses across various tasks like summarization, classification, and creative generation. Perfect for developers, marketers, and anyone working with AI tools, this course helped me deeply understand how to communicate effectively with large language models. It was an eye-opening experience that made me more confident in leveraging AI in real-world applications",
+    },
 ]
 
 export const educationData = {

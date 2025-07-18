@@ -72,7 +72,7 @@ export default function DockNavigation() {
       <div className="relative">
         {/* Dock Container */}
         <div className="flex items-end gap-1 bg-white backdrop-blur-md py-1 px-1 rounded-full shadow-lg border border-white/20 max-w-[90vw] sm:max-w-none">
-          <div className="flex items-end gap-1 bg-gray-200 rounded-full sm:px-4">
+          <div className="flex items-end gap-0 md:gap-1 bg-gray-200 rounded-full sm:px-4">
             {dockItems.map((item, index) => {
               const Icon = item.icon;
               const isHovered = hoveredIndex === index;
@@ -109,7 +109,7 @@ export default function DockNavigation() {
                     className={`relative p-3 rounded-xl hover:cursor-pointer transition-all duration-300 ease-out ${scale} active:scale-95`}
                   >
                     <Icon
-                      className={`w-6 h-6 ${item.color} transition-colors duration-200`}
+                      className={`md:w-6 w-4 h-4 md:h-6 ${item.color} transition-colors duration-200`}
                     />
                     <div
                       className={`absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-gray-400 rounded-full transition-all duration-200 ${

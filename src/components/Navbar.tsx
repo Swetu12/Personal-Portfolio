@@ -48,12 +48,12 @@ const Navbar = () => {
                     className="text-sm text-gray-500 inset-0"
                   >
                       {isProfileDivHovered ? (
-                          "Click to see my bio"
+                          "📷 Click to see my bio"
                       ) : (
                           <>
                               <span>{profile.title}</span>
                               <br />
-                              <span className="text-xs text-gray-400 md:hidden">click on photo to see my bio</span>
+                              <span className="text-xs text-gray-400 md:hidden">📷 Tap photo to view bio</span>
                           </>
                       )}
                   </motion.p>

@@ -42,6 +42,10 @@ const projects: Project[] = [
     id: 8,
     image: "/mockups/dimasc4.png?height=240&width=320",
   },
+  {
+    id: 9,
+    image: "/mockups/dimasc-ai/dimasc-ai-preview.png?height=240&width=320",
+  },
 ];
 
 export default function ProjectSlider() {
@@ -49,7 +53,7 @@ export default function ProjectSlider() {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [isPaused, setIsPaused] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
-  const cardWidth = 420; // Width of each frame + gap
+  const cardWidth = 420;
   const totalWidth = projects.length * cardWidth;
 
   // Duplicate projects for seamless looping
