@@ -4,6 +4,16 @@ export const testimonials = {
     "Feedback from clients who turned their ideas into success with my expertise",
   reviews: [
     {
+      name: "Nikolija Chorlinova",
+      job: "HR Professional, Administration Assistant, Assistant Manager, Business, Management",
+      review:
+          "We’ve been incredibly lucky to have Alex with us at KYOCERA Document Solutions UK as a T-Level student. He’s done amazing work with our development team, bringing fresh ideas, dedication, and real impact. 🙌\n" +
+          "Alex is now looking for a fully remote Junior Software Developer role where he can continue to grow and contribute. \n" +
+          "\n" +
+          "If you or someone in your network is hiring, I can’t recommend him enough!",
+      image: "/clients_logos/nikki.jpeg",
+    },
+    {
       name: "Robert",
       job: "CEO of rolleenagency",
       review:
