@@ -6,40 +6,6 @@ export const projectsData = {
     "Explore a showcase of designs that blend creativity, strategy, and seamless execution",
   projects: [
     {
-      title: "FVS Agency",
-      slug: "fvs-agency",
-      description: "A Modern Web Development & Marketing Agency",
-      logo: "/clients_logos/fvsagency.svg",
-      link: "https://fvsagency.netlify.app/",
-      buttonText: "Live Preview",
-      image: "/mockups/fvsmockup.svg",
-      icons: [
-        {
-          name: "Client",
-          icon: User,
-          title: "FVS Agency",
-        },
-        {
-          name: "Service",
-          icon: PencilRuler,
-          title: "Web Development",
-        },
-        {
-          name: "Date",
-          icon: Calendar,
-          title: "2025",
-        },
-      ],
-      overviewText: "Overview",
-      overview:
-        "FVS Agency is a dynamic platform crafted to empower digital ventures with scalable, modern web solutions.\n\n🚀 Built using the latest technologies like Next.js, React, Tailwind CSS and TypeScript, it delivers a fast, responsive, and user-friendly experience.\n\n💼 Designed for our agency, FVS Agency showcases a strong portfolio, SaaS development services, and AI-enhanced tools adapted to help businesses grow and scale.\n\nKey Features:\n\n✅ Built with Next.js and React for seamless server-side rendering and smooth client-side interactions.\n✅ Tailwind CSS for fully responsive, mobile-first design across all devices.\n✅ Modular architecture that allows for scalability and future enhancements.\n✅ AI chatbot integration with customizable knowledge bases to automate customer support.\n✅ Deployed on Vercel for high-speed global performance.\n\n✨ FVS Agency blends high-performance engineering with sleek design to create a powerful digital presence that attracts, engages, and converts.\n",
-      images: [
-        "/mockups/fvsagency3.png",
-        "/mockups/fvsagency2.png",
-        "/mockups/fvsagency1.png",
-      ],
-    },
-    {
       title: "Dimasc",
       slug: "dimasc",
       description: "A Modern Digital Marketing SaaS Platform",
@@ -66,26 +32,26 @@ export const projectsData = {
       ],
       overviewText: "Overview",
       overview:
-        "This AI Digital Marketing SaaS Platform is a powerful solution built to transform how businesses manage and scale their online presence. Designed in collaboration with a dedicated partner, this powerful tool combines latest AI technologies with practical marketing workflows to empower users with actionable insights and automation.\n\n" +
-        "Built using Next.js and TypeScript, the frontend delivers a seamless, responsive, and intuitive experience. From AI-powered tools to deep data integration, the platform is full of features to boost productivity and marketing results.\n\n" +
-        "✨ Key Features:\n\n" +
-        "✅ AI Email Generation for engaging campaigns.\n" +
-        "✅ AI Idea Generation for endless marketing inspiration.\n" +
-        "✅ AI Script Generator tailored for digital ads and content.\n" +
-        "✅ In-depth SEO Generation to boost organic visibility.\n" +
-        "✅ Smart Digital Ads Generator for optimized ad content.\n" +
-        "✅ CSV/JSON import tool to analyze and visualize ad performance.\n" +
-        "✅ Auto-generated PDF reports for professional insights.\n" +
-        "✅ A Notion-like Notes system for organized planning.\n" +
-        "✅ A flexible Data center to store, edit, and manage all platform inputs.\n\n" +
-        "🧠 Throughout the development process, I learned how to:\n" +
-        "- Build scalable and modular folder architectures.\n" +
-        "- Optimize applications for speed and maintainability.\n" +
-        "- Solve complex problems from scratch without prior knowledge.\n" +
-        "- Refactor and structure cleaner, more efficient code.\n" +
-        "- Implement deep and advanced React functionalities.\n\n" +
-        "This project reflects not just powerful AI capabilities, but also a relentless commitment to learning, solving, and delivering a top-tier user experience.\n\n" +
-        "🚀 This platform is the future of digital marketing — fast, intelligent, and tailored for growth.",
+          "This AI Digital Marketing SaaS Platform is a powerful solution built to transform how businesses manage and scale their online presence. Designed in collaboration with a dedicated partner, this powerful tool combines latest AI technologies with practical marketing workflows to empower users with actionable insights and automation.\n\n" +
+          "Built using Next.js and TypeScript, the frontend delivers a seamless, responsive, and intuitive experience. From AI-powered tools to deep data integration, the platform is full of features to boost productivity and marketing results.\n\n" +
+          "✨ Key Features:\n\n" +
+          "✅ AI Email Generation for engaging campaigns.\n" +
+          "✅ AI Idea Generation for endless marketing inspiration.\n" +
+          "✅ AI Script Generator tailored for digital ads and content.\n" +
+          "✅ In-depth SEO Generation to boost organic visibility.\n" +
+          "✅ Smart Digital Ads Generator for optimized ad content.\n" +
+          "✅ CSV/JSON import tool to analyze and visualize ad performance.\n" +
+          "✅ Auto-generated PDF reports for professional insights.\n" +
+          "✅ A Notion-like Notes system for organized planning.\n" +
+          "✅ A flexible Data center to store, edit, and manage all platform inputs.\n\n" +
+          "🧠 Throughout the development process, I learned how to:\n" +
+          "- Build scalable and modular folder architectures.\n" +
+          "- Optimize applications for speed and maintainability.\n" +
+          "- Solve complex problems from scratch without prior knowledge.\n" +
+          "- Refactor and structure cleaner, more efficient code.\n" +
+          "- Implement deep and advanced React functionalities.\n\n" +
+          "This project reflects not just powerful AI capabilities, but also a relentless commitment to learning, solving, and delivering a top-tier user experience.\n\n" +
+          "🚀 This platform is the future of digital marketing — fast, intelligent, and tailored for growth.",
       images: [
         "/mockups/dimasc1.png",
         "/mockups/dimasc2.png",
@@ -101,6 +67,54 @@ export const projectsData = {
         "/previews/dimasc/dimasc-preview-video-3.mp4",
         "/previews/dimasc/dimasc-preview-video-1.mp4",
         "/previews/dimasc/dimasc-preview-video-2.mp4",
+      ]
+    },
+    {
+      "title": "AdLytix",
+      "slug": "adlytix",
+      "description": "A CSV/JSON Ads Analyzer built with Next.js and Supabase",
+      "logo": "/clients_logos/AdLytix.svg",
+      "link": "https://github.com/Swetu12/ads-analyzer-frontend",
+      "buttonText": "Visit Project",
+      "image": "/mockups/AdLytix-mockup.svg",
+      "icons": [
+        {
+          "name": "Client",
+          "icon": User,
+          "title": "Myself"
+        },
+        {
+          "name": "Service",
+          "icon": PencilRuler,
+          "title": "Frontend Development & Ads Analysis Tool"
+        },
+        {
+          "name": "Date",
+          "icon": Calendar,
+          "title": "2025"
+        }
+      ],
+      "overviewText": "Overview",
+      "overview": "AdLytix is a CSV/JSON Ads Analyzer designed to help users analyze ad performance data, generate actionable insights, and improve ROI.\n\n" +
+          "Built using Next.js, TypeScript, Tailwind CSS 4.0, and Supabase, this project demonstrates scalable frontend architecture and effective state management using Zustand.\n\n" +
+          "✨ Key Features:\n\n" +
+          "✅ Authentication (Sign-In, Sign-Up, Email Confirmation, Forgot Password with multi-step recovery).\n" +
+          "✅ Dashboard Interface with dynamic data visualization.\n" +
+          "✅ Analysis Interface for campaign creation, CSV/JSON upload, interactive charts, and PDF export of reports.\n" +
+          "✅ Settings for changing email/password with MFA.\n" +
+          "✅ OAuth Integration and secured routes.\n\n" +
+          "🧠 Key Learnings:\n" +
+          "- Frontend architecture for large-scale SaaS apps using Next.js route groups and src-based structure.\n" +
+          "- Efficient global state management with Zustand.\n" +
+          "- Advanced form handling and validation with React Hook Form.\n" +
+          "- Integration with Supabase for authentication, database, and storage.\n" +
+          "- Creating dashboards with interactive charts and exportable reports.\n\n" +
+          "This project highlights both technical skills and the ability to deliver a professional SaaS-like application individually.",
+      "images": [
+        "/mockups/AdLytix-mockup.svg",
+      ],
+      "videos": [
+        "/previews/AdLytix/ads-analyzer.mp4"
       ]
     },
     {
@@ -172,6 +186,40 @@ export const projectsData = {
       videos: [
         "/previews/dimasc-ai/dimasc-ai-preview-video-1.mp4",
       ]
+    },
+    {
+      title: "FVS Agency",
+      slug: "fvs-agency",
+      description: "A Modern Web Development & Marketing Agency",
+      logo: "/clients_logos/fvsagency.svg",
+      link: "https://fvsagency.netlify.app/",
+      buttonText: "Live Preview",
+      image: "/mockups/fvsmockup.svg",
+      icons: [
+        {
+          name: "Client",
+          icon: User,
+          title: "FVS Agency",
+        },
+        {
+          name: "Service",
+          icon: PencilRuler,
+          title: "Web Development",
+        },
+        {
+          name: "Date",
+          icon: Calendar,
+          title: "2025",
+        },
+      ],
+      overviewText: "Overview",
+      overview:
+          "FVS Agency is a dynamic platform crafted to empower digital ventures with scalable, modern web solutions.\n\n🚀 Built using the latest technologies like Next.js, React, Tailwind CSS and TypeScript, it delivers a fast, responsive, and user-friendly experience.\n\n💼 Designed for our agency, FVS Agency showcases a strong portfolio, SaaS development services, and AI-enhanced tools adapted to help businesses grow and scale.\n\nKey Features:\n\n✅ Built with Next.js and React for seamless server-side rendering and smooth client-side interactions.\n✅ Tailwind CSS for fully responsive, mobile-first design across all devices.\n✅ Modular architecture that allows for scalability and future enhancements.\n✅ AI chatbot integration with customizable knowledge bases to automate customer support.\n✅ Deployed on Vercel for high-speed global performance.\n\n✨ FVS Agency blends high-performance engineering with sleek design to create a powerful digital presence that attracts, engages, and converts.\n",
+      images: [
+        "/mockups/fvsagency3.png",
+        "/mockups/fvsagency2.png",
+        "/mockups/fvsagency1.png",
+      ],
     }
   ],
 };
