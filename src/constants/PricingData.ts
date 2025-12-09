@@ -17,7 +17,7 @@ export const pricingData = {
       "Delivery in 7–10 Business Days",
       "Deployed on Vercel, Netlify, or Custom Host",
     ],
-    price: "£750–£1,200 / project",
+    price: "£300–£1,200 / project",
     buttonText: "Get Started",
   },
   enterprisePlan: {
@@ -35,7 +35,7 @@ export const pricingData = {
       "Ongoing Support & Maintenance (Monthly Retainer)",
       "Priority Delivery & Dedicated Hours",
     ],
-    price: "Starting at £2,500+ / project or £1,000+ / month retainer",
+    price: "Starting at £1,500+ / project or £1,000+ / month retainer",
     buttonText: "Book a Free Consultation",
   },
 };

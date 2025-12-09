@@ -15,6 +15,16 @@ const Hero = () => {
     }
   };
 
+  const onButtonClick = () => {
+      const pdfUrl = "/cv/halexx_cv.pdf";
+      const link = document.createElement("a")
+      link.href = pdfUrl;
+      link.download = "halexx_cv.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  }
+
   return (
     <>
       <div className="mt-10 w-full flex-col flex items-center justify-center">
@@ -38,7 +48,7 @@ const Hero = () => {
           </div>
 
           <Button
-            onClick={() => handleScroll("pricing")}
+            onClick={onButtonClick}
             className="rounded-full p-7 hover:cursor-pointer font-medium bg-button"
           >
             {heroData.button}
